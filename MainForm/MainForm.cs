@@ -72,7 +72,7 @@ public class MainForm : Form {
     public void SeeFromString(string ToSee = ""){
         ListControl.Items.Clear();
         EntryList.ForEach((Entry) => {
-            if(Entry.Contains(ToSee)){
+            if(Entry.ToLower().Contains(ToSee.ToLower())){
                 ListControl.Items.Add(Entry.Split(":")[0].Replace("|.|", ":"));
             }
         });
