@@ -4,7 +4,7 @@
     <SelectedDevice>Samsung SM-A202F</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>Samsung SM-A202F %28Android 11.0 - API 30%29</ActiveDebugProfile>
-    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredTheme>Theme.MaterialComponents.Light.NoActionBar</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>
