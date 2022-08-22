@@ -37,9 +37,9 @@ public class ConfirmDeleteForm : Form {
 
     private void ConfirmClick(object? sender, EventArgs e){
         Main.MainForm.Instance.RemoveFromList(ToDelete);
-        MessageBox.Show(ToDelete.Split(":")[0] + " a été supprimé", ToDelete.Split(":")[0] + " supprimé");
         Close();
         VF.Close();
+        MessageBox.Show(ToDelete.Split(":")[0] + " a été supprimé", ToDelete.Split(":")[0] + " supprimé");
     }
 
     private void CancelClick(object? sender, EventArgs e) => Close();
