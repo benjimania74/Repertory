@@ -18,6 +18,7 @@ namespace Android
 
             TextView Tv = FindViewById<TextView>(Resource.Id.textView1);
             Tv.Text = "Hello World !";
+            Tv.LineHeight = 50;
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
