@@ -294,3 +294,8 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_launcher.png
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_add.png
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\element_list.xml
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc648b7ac66e7efbe0af\ElementListAdapter.java
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_trash.png
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\add_element.xml
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\delete_element.xml

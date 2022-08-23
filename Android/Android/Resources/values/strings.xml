@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Repertory</string>
     <string name="action_settings">Settings</string>
-	<string name="research">Rechercher:</string>
+	<string name="research">Rechercher...</string>
+	<string name="delete_element">Supprimer l\'élément</string>
+	<string name="default_string">Default</string>
 </resources>

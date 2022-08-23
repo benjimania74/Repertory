@@ -8,32 +8,24 @@
     android:addStatesFromChildren="true"
     android:keepScreenOn="false"
     android:longClickable="true"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:id="@+id/page_layout">
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/content_layout">
 
-        <TextView
-            android:text="@string/research"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="250px"
-            android:layout_marginLeft="10px"
-            android:layout_marginTop="10px"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:id="@+id/research_text" />
-
         <EditText
-            android:minWidth="340px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15px"
             android:layout_marginRight="15px"
             android:layout_marginTop="5px"
             android:id="@+id/search_bar"
-            android:inputType="text" />
+            android:inputType="text"
+            android:hint="@string/research"/>
 
         <FrameLayout
             android:layout_width="1px"
@@ -48,11 +40,13 @@
             android:layout_width="70px"
             android:layout_height="70px"
             android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
             android:layout_marginTop="12px"
             android:scaleType="fitXY"
             android:adjustViewBounds="true"
             android:src="@drawable/ic_add"
-            android:id="@+id/add_element_button" />
+            android:id="@+id/add_element_button"
+            android:contentDescription="" />
 
     </GridLayout>
 
@@ -66,5 +60,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <ListView
+            android:id="@+id/element_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>/>
 
 </TableLayout>
