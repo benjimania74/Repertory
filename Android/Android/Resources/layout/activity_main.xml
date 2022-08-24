@@ -55,10 +55,12 @@
         android:layout_height="25px"
         android:layout_marginLeft="25px"
         android:layout_marginRight="25px">
+
         <Button
             android:backgroundTint="@color/gray"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </FrameLayout>
 
     <LinearLayout
@@ -66,10 +68,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
+
         <ListView
             android:id="@+id/element_list"
+            android:fastScrollEnabled="true"
+            android:textAlignment="textStart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
     </LinearLayout>/>
 
 </TableLayout>

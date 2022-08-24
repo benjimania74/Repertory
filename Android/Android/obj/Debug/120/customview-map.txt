@@ -21,6 +21,7 @@ foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 FrameLayout;obj\Debug\120\res\layout\activity_main.xml
 FrameLayout;obj\Debug\120\res\layout\element_list.xml
 GridLayout;obj\Debug\120\res\layout\activity_main.xml
+GridLayout;obj\Debug\120\res\layout\element_list.xml
 ImageButton;obj\Debug\120\res\layout\activity_main.xml
 ImageView;obj\Debug\120\res\layout\activity_main.xml
 ImageView;obj\Debug\120\res\layout\element_list.xml

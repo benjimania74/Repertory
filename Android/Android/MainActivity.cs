@@ -7,6 +7,8 @@ using Android.Widget;
 using AndroidX.CardView.Widget;
 using Android.Resources;
 using System.Collections.Generic;
+using Android.Views;
+using AlertDialog = Android.App.AlertDialog;
 
 namespace Android{
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.MaterialComponents.Light.NoActionBar", MainLauncher = true)]
@@ -27,7 +29,7 @@ namespace Android{
             ActualiseList();
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults){
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Content.PM.Permission[] grantResults){
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -37,11 +39,13 @@ namespace Android{
             ListView Lv = FindViewById<ListView>(Resource.Id.element_list);
             Lv.SetMinimumHeight(Resources.DisplayMetrics.HeightPixels - FindViewById<GridLayout>(Resource.Id.content_layout).Height);
 
-            List<TableItem> items = new List<TableItem>(){
-                new TableItem(Key: "Key", Value: "Value"),
+            List<TableItem> items = new List<TableItem>()
+            {
+                new TableItem(Key: "Mdr", Value: "Ptdr"),
                 new TableItem(Key: "Hello", Value: "Hey"),
                 new TableItem(Key: "Salut !", Value: "Hello !")
             };
+            
 
             Lv.Adapter = new ElementListAdapter(this, items, Width);
         }

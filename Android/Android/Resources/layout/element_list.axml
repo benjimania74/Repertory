@@ -39,16 +39,25 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="50px"
-                android:layout_height="50px"
-                android:layout_marginTop="15px"
+            <GridLayout
+                android:layout_width="80px"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="10px"
-                android:scaleType="fitXY"
-                android:adjustViewBounds="true"
-                android:src="@drawable/ic_trash"
-                android:contentDescription="@string/delete_element"
-                android:id="@+id/image_view_list"/>
+                android:id="@+id/delete_grid_layout">
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_marginTop="15px"
+                    android:layout_marginRight="15px"
+                    android:layout_marginLeft="15px"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trash"
+                    android:contentDescription="@string/delete_element"
+                    android:id="@+id/image_view_list"/>
+
+            </GridLayout>
 
         </LinearLayout>
 
