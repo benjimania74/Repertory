@@ -2,20 +2,19 @@
 using Android.OS;
 using Android.Runtime;
 using AndroidX.AppCompat.App;
-using AndroidX.RecyclerView.Widget;
 using Android.Widget;
-using AndroidX.CardView.Widget;
 using Android.Resources;
 using System.Collections.Generic;
-using Android.Views;
-using AlertDialog = Android.App.AlertDialog;
 
-namespace Android{
+namespace Android
+{
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.MaterialComponents.Light.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity{
+    public class MainActivity : AppCompatActivity
+    {
         private int Width;
 
-        protected override void OnCreate(Bundle savedInstanceState){
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
@@ -29,13 +28,15 @@ namespace Android{
             ActualiseList();
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Content.PM.Permission[] grantResults){
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Content.PM.Permission[] grantResults)
+        {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-        public void ActualiseList(string Contain = ""){
+        public void ActualiseList(string Contain = "")
+        {
             ListView Lv = FindViewById<ListView>(Resource.Id.element_list);
             Lv.SetMinimumHeight(Resources.DisplayMetrics.HeightPixels - FindViewById<GridLayout>(Resource.Id.content_layout).Height);
 
@@ -45,7 +46,6 @@ namespace Android{
                 new TableItem(Key: "Hello", Value: "Hey"),
                 new TableItem(Key: "Salut !", Value: "Hello !")
             };
-            
 
             Lv.Adapter = new ElementListAdapter(this, items, Width);
         }

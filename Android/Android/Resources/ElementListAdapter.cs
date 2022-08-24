@@ -1,41 +1,41 @@
 ﻿using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Google.Android.Material.Tabs;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using static Android.Content.ClipData;
 
-namespace Android.Resources{
-    internal class ElementListAdapter : BaseAdapter<TableItem>, View.IOnClickListener{
+namespace Android.Resources
+{
+    internal class ElementListAdapter : BaseAdapter<TableItem>, View.IOnClickListener
+    {
         List<TableItem> items;
         Activity context;
         int Width;
 
-        public ElementListAdapter(Activity context, List<TableItem> items, int Width) : base(){
+        public ElementListAdapter(Activity context, List<TableItem> items, int Width) : base()
+        {
             this.context = context;
             this.items = items;
             this.Width = Width;
         }
 
-        public override long GetItemId(int position){
+        public override long GetItemId(int position)
+        {
             return position;
         }
 
-        public override TableItem this[int position]{
+        public override TableItem this[int position]
+        {
             get { return items[position]; }
         }
 
-        public override int Count{
+        public override int Count
+        {
             get { return items.Count; }
         }
 
-        public override View GetView(int position, View convertView, ViewGroup parent){
+        public override View GetView(int position, View convertView, ViewGroup parent)
+        {
             var item = items[position];
 
             View view = convertView;
@@ -62,7 +62,8 @@ namespace Android.Resources{
             return view;
         }
 
-        void View.IOnClickListener.OnClick(View v) {
+        void View.IOnClickListener.OnClick(View v)
+        {
             string key = v.ContentDescription.Split(":")[0].Replace("|.|", ":");
             string value = v.ContentDescription.Split(":")[1].Replace("|.|", ":");
 
@@ -90,7 +91,7 @@ namespace Android.Resources{
                 alert.Show();
             }
 
-            if(v.GetType() == typeof(LinearLayout))
+            if (v.GetType() == typeof(LinearLayout))
             {
                 // Ouvrir Menu Element [modif]
             }
