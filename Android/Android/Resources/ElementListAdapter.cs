@@ -64,22 +64,22 @@ namespace Android.Resources
 
         void View.IOnClickListener.OnClick(View v)
         {
-            string key = v.ContentDescription.Split(":")[0].Replace("|.|", ":");
-            string value = v.ContentDescription.Split(":")[1].Replace("|.|", ":");
+            string key = v.ContentDescription.Split(":")[0];
+            string value = v.ContentDescription.Split(":")[1];
 
             if (v.GetType() == typeof(GridLayout))
             {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(context);
                 AlertDialog alert = dialog.Create();
 
-                alert.SetTitle($"Supprimer '{key}' ?");
+                alert.SetTitle($"Supprimer '{key.Replace("|.|", ":")}' ?");
                 alert.SetIcon(Resource.Drawable.ic_trash);
 
                 LayoutInflater inflater = (LayoutInflater)context.GetSystemService(Context.LayoutInflaterService);
                 View nv = inflater.Inflate(Resource.Layout.delete_element, null);
 
                 nv.FindViewById<Button>(Resource.Id.yes_button).Click += (s, e) => {
-                    // Supprimer de la liste
+                    MainActivity.Instance.RemoveElement(key, value);
                     alert.Cancel();
                 };
 
@@ -93,7 +93,7 @@ namespace Android.Resources
 
             if (v.GetType() == typeof(LinearLayout))
             {
-                // Ouvrir Menu Element [modif]
+                new ModifElement(context, key + ":" + value);
             }
         }
     }

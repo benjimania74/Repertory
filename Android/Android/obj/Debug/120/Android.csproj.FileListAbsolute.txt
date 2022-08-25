@@ -1,10 +1,5 @@
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Android.dll
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Android.pdb
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\com.bakusstudio.android.apk
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\com.bakusstudio.android.aab
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\com.bakusstudio.android-Signed.aab
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\com.bakusstudio.android-Signed.apk
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\com.bakusstudio.android-Signed.apk.idsig
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\build.props
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\adb.props
@@ -29,10 +24,7 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.csproj.CoreCompileInputs.cache
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.dll
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.pdb
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\com.bakusstudio.android.apk
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\base.zip
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\com.bakusstudio.android.aab
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\com.bakusstudio.android.apks
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\activity_main.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\values\colors.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\values\ic_launcher_background.xml
@@ -299,3 +291,14 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_trash.png
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\add_element.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\delete_element.xml
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\see_element.xml
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_pen.png
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\fr.bakusstudio.repertory.apk
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\fr.bakusstudio.repertory.aab
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\fr.bakusstudio.repertory-Signed.aab
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\fr.bakusstudio.repertory-Signed.apk
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\fr.bakusstudio.repertory-Signed.apk.idsig
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\fr.bakusstudio.repertory.apk
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\fr.bakusstudio.repertory.aab
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\fr.bakusstudio.repertory.apks
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\fr\bakusstudio\repertory\R.java
