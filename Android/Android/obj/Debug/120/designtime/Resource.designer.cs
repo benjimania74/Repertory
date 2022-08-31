@@ -4582,92 +4582,95 @@ namespace Android
 			// aapt resource value: 0x7F0D001B
 			public const int action_settings = 2131558427;
 			
-			// aapt resource value: 0x7F0D001D
-			public const int appbar_scrolling_view_behavior = 2131558429;
-			
 			// aapt resource value: 0x7F0D001C
-			public const int app_name = 2131558428;
+			public const int add_element = 2131558428;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int bottom_sheet_behavior = 2131558430;
+			public const int appbar_scrolling_view_behavior = 2131558430;
+			
+			// aapt resource value: 0x7F0D001D
+			public const int app_name = 2131558429;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int cancel = 2131558431;
+			public const int bottom_sheet_behavior = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int character_counter_content_description = 2131558432;
+			public const int cancel = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int character_counter_pattern = 2131558433;
+			public const int character_counter_content_description = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int close = 2131558434;
+			public const int character_counter_pattern = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int copy_toast_msg = 2131558435;
+			public const int close = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int create = 2131558436;
+			public const int copy_toast_msg = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int default_string = 2131558437;
+			public const int create = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int delete_element = 2131558438;
+			public const int default_string = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int fab_transformation_scrim_behavior = 2131558439;
+			public const int delete_element = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int fab_transformation_sheet_behavior = 2131558440;
+			public const int fab_transformation_scrim_behavior = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int fallback_menu_item_copy_link = 2131558441;
+			public const int fab_transformation_sheet_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int fallback_menu_item_open_in_browser = 2131558442;
+			public const int fallback_menu_item_copy_link = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fallback_menu_item_share_link = 2131558443;
+			public const int fallback_menu_item_open_in_browser = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int hide_bottom_view_on_scroll_behavior = 2131558444;
+			public const int fallback_menu_item_share_link = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int key = 2131558445;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int key = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int mtrl_chip_close_icon_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int password_toggle_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int path_password_eye = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye_mask_strike_through = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_visible = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int research = 2131558452;
+			public const int path_password_strike_through = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int save = 2131558453;
+			public const int research = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int search_menu_title = 2131558454;
+			public const int save = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int status_bar_notification_info_overflow = 2131558455;
+			public const int search_menu_title = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int value = 2131558456;
+			public const int status_bar_notification_info_overflow = 2131558456;
+			
+			// aapt resource value: 0x7F0D0039
+			public const int value = 2131558457;
 			
 			static String()
 			{

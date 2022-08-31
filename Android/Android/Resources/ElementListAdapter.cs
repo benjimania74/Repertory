@@ -44,7 +44,7 @@ namespace Android.Resources
                 view = context.LayoutInflater.Inflate(Resource.Layout.element_list, null);
 
             LinearLayout Ll = view.FindViewById<LinearLayout>(Resource.Id.linear_layout);
-            Ll.SetMinimumWidth(Width - 80);
+            Ll.SetMinimumWidth(Width - Ll.Height - 100);
             Ll.ContentDescription = item.key + ":" + item.value;
             Ll.SetOnClickListener(this);
 
@@ -54,9 +54,15 @@ namespace Android.Resources
 
             ImageView Iv = view.FindViewById<ImageView>(Resource.Id.image_view_list);
             Iv.ContentDescription = "Supprimer " + item.key.Replace("|.|", ":");
+            Iv.SetMinimumHeight(Ll.Height - 20);
+            Iv.SetMaxHeight(Ll.Height - 20);
+            Iv.SetMinimumWidth(Ll.Height - 20);
+            Iv.SetMaxWidth(Ll.Height - 20);
 
             GridLayout Gl = view.FindViewById<GridLayout>(Resource.Id.delete_grid_layout);
             Gl.ContentDescription = item.key + ":" + item.value;
+            Gl.SetMinimumWidth(Ll.Height);
+            Gl.SetMinimumHeight(Ll.Height);
             Gl.SetOnClickListener(this);
 
             return view;

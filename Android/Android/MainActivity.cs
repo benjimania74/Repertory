@@ -13,6 +13,7 @@ namespace Android
     public class MainActivity : AppCompatActivity
     {
         private int Width;
+        public int Height;
         private List<TableItem> items;
         public static MainActivity Instance;
         string f = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "repertory.ppr");
@@ -27,9 +28,10 @@ namespace Android
             SetContentView(Resource.Layout.activity_main);
 
             Width = Resources.DisplayMetrics.WidthPixels;
+            Height = Resources.DisplayMetrics.HeightPixels;
 
             EditText Et = FindViewById<EditText>(Resource.Id.search_bar);
-            Et.SetWidth(Width - 120);
+            Et.SetWidth(Width - (Et.Height + 130));
             Et.TextChanged += (s, e) =>
             {
                 ActualiseList(Et.Text);
@@ -47,7 +49,7 @@ namespace Android
         }
 
         public void ActualiseList(string Contain = "")
-        {   
+        {
             if (!File.Exists(f))
             {
                 CreateFile();
@@ -58,11 +60,11 @@ namespace Android
             using (StreamReader reader = File.OpenText(f))
             {
                 string LineContent = "";
-                while((LineContent = reader.ReadLine()) != null)
+                while ((LineContent = reader.ReadLine()) != null)
                 {
                     if (LineContent.Contains(":"))
                     {
-                        if (LineContent.Split(":")[0].Replace("|.|", ":").Contains(Contain))
+                        if (LineContent.Split(":")[0].Replace("|.|", ":").ToLower().Contains(Contain.ToLower()))
                         {
                             TableItem Tb = new TableItem(LineContent.Split(":")[0], LineContent.Split(":")[1]);
                             items.Add(Tb);
@@ -81,21 +83,34 @@ namespace Android
         public void AddElement(string key, string value)
         {
             items.Add(new TableItem(key, value));
-            Save();
+            using StreamWriter file = new StreamWriter(f, append: true);
+            file.WriteLineAsync(key + ":" + value);
+            file.Close();
+            ActualiseList(FindViewById<EditText>(Resource.Id.search_bar).Text);
         }
 
         public void RemoveElement(string key, string value)
         {
-            TableItem Item = new TableItem(null, null);
-            items.ForEach(it =>
+            using (StreamReader reader = File.OpenText(f))
             {
-                if(it.key == key && it.value == value)
+                List<string> Lines = new List<string>();
+                string content = "";
+                while ((content = reader.ReadLine()) != null)
                 {
-                    Item = it;
+                    Lines.Add(content);
                 }
-            });
-            items.Remove(Item);
+
+                Lines.Remove(key + ":" + value);
+
+                items = new List<TableItem>();
+
+                Lines.ForEach(s =>
+                {
+                    items.Add(new TableItem(s.Split(":")[0], s.Split(":")[1]));
+                });
+            }
             Save();
+            ActualiseList(FindViewById<EditText>(Resource.Id.search_bar).Text);
         }
 
         public void ModifElement(string oldKey, string oldValue, string newKey, string newValue)

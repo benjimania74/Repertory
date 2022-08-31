@@ -11,46 +11,48 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="80px"
+            android:layout_height="110px"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
+                android:padding="10px"
                 android:id="@+id/linear_layout">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/black"
-                    android:textSize="30px"
+                    android:textSize="35px"
                     android:text="@string/default_string"
                     android:layout_marginLeft="10px"
-                    android:layout_marginBottom="-10px"
                     android:layout_marginTop="5px"
+                    android:layout_marginBottom="-10px"
                     android:id="@+id/key_text_view"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="30px"
                     android:id="@+id/value_text_view"
-                    android:layout_marginLeft="20px"
+                    android:layout_marginLeft="25px"
                     android:text="@string/default_string"/>
 
             </LinearLayout>
 
             <GridLayout
                 android:layout_width="80px"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10px"
+                android:layout_height="match_parent"
+                android:layout_margin="20px"
                 android:id="@+id/delete_grid_layout">
 
                 <ImageView
-                    android:layout_width="50px"
-                    android:layout_height="50px"
-                    android:layout_marginTop="15px"
-                    android:layout_marginRight="15px"
-                    android:layout_marginLeft="15px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px"
                     android:scaleType="fitXY"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_trash"

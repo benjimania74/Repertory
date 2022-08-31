@@ -1861,7 +1861,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\bogda\\CSharpWorkspace\\PayPalRepertory\\Repertory\\Android\\Android\\Android.csproj",
-      "projectName": "Android",
+      "projectName": "Repertory",
       "projectPath": "C:\\Users\\bogda\\CSharpWorkspace\\PayPalRepertory\\Repertory\\Android\\Android\\Android.csproj",
       "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bogda\\CSharpWorkspace\\PayPalRepertory\\Repertory\\Android\\Android\\obj\\",

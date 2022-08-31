@@ -11,6 +11,13 @@ namespace Android.Resources
         public AddElement(Activity context)
         {
             ImageView Btn = context.FindViewById<ImageView>(Resource.Id.add_element_button);
+            int s = context.FindViewById<EditText>(Resource.Id.search_bar).Height - 20;
+
+            Btn.SetMinimumHeight(s);
+            Btn.SetMinimumWidth(s);
+            Btn.SetMaxHeight(s);
+            Btn.SetMaxWidth(s);
+
             Btn.Click += (s, e) =>
             {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(context);

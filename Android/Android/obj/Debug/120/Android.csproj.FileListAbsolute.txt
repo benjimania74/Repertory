@@ -1,5 +1,3 @@
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Android.dll
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Android.pdb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\build.props
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\adb.props
@@ -22,8 +20,6 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\R.txt
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\R.cs.flag
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.csproj.CoreCompileInputs.cache
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.dll
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Android.pdb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\base.zip
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\activity_main.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\values\colors.xml
@@ -32,8 +28,6 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\values\styles.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\uploadflags.txt
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\resolvedassemblies.hash
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Android.dll
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Android.pdb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Java.Interop.dll
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Java.Interop.pdb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Mono.Android.dll
@@ -174,7 +168,6 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\androidx\transition\R.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\com\google\android\material\R.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc64303dd3494ea349b2\MainActivity.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc64396a3fe5f8138e3f\CustomTabsServiceConnectionImpl.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc64396a3fe5f8138e3f\KeepAliveService.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
@@ -248,7 +241,6 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\xamarin\essentials\fileProvider.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\packaged_resources
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\com\bakusstudio\android\R.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\compressed_assemblies.armeabi-v7a.ll
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\compressed_assemblies.x86.ll
@@ -287,7 +279,6 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_add.png
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\element_list.xml
-C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc648b7ac66e7efbe0af\ElementListAdapter.java
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\drawable\ic_trash.png
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\add_element.xml
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\res\layout\delete_element.xml
@@ -302,3 +293,11 @@ C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Deb
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\fr.bakusstudio.repertory.aab
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\bin\fr.bakusstudio.repertory.apks
 C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\fr\bakusstudio\repertory\R.java
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\bin\Debug\Repertory.pdb
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\Repertory.pdb
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\assets\Repertory.pdb
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc6466a5c88f065405e6\ElementListAdapter.java
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Android\Android\obj\Debug\120\android\src\crc64c9d3773512767031\MainActivity.java
