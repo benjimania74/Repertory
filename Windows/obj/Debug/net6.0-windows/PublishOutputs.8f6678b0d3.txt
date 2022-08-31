@@ -1,0 +1,5 @@
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\publish\Repertory.exe
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\publish\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\publish\Repertory.deps.json
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\publish\Repertory.runtimeconfig.json
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\publish\Repertory.pdb

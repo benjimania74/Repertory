@@ -26,6 +26,7 @@ public class ValidateButton {
         }
 
         Main.MainForm.Instance.AddInList($"{Key.Replace(":", "|.|")}:{Value.Replace(":", "|.|")}");
+        Main.MainForm.Instance.SeeFromString(MainObject.Bar.TextBox.ForeColor == Color.Gray ? "" : MainObject.Bar.TextBox.Text);
 
         MessageBox.Show($"L'élément '{Key}' a été ajouté avec la valeur '{Value}'", "Ajouté avec Succès");
     }

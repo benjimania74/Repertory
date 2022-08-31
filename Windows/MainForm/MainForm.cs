@@ -40,7 +40,7 @@ public class MainForm : Form {
     }
 
     private void Initializer(){
-        Text = "PayPalRepertory";
+        Text = "Repertory";
         Size = MinimumSize = MaximumSize = new Size(200, 400);
         Icon = new Icon(@"./icon.ico");
         StartPosition = FormStartPosition.CenterScreen;

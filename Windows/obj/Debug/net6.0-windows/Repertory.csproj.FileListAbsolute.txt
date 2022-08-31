@@ -1,0 +1,15 @@
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\Repertory.exe
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\Repertory.deps.json
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\Repertory.runtimeconfig.json
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\bin\Debug\net6.0-windows\Repertory.pdb
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.csproj.AssemblyReference.cache
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.AssemblyInfoInputs.cache
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.AssemblyInfo.cs
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.csproj.CoreCompileInputs.cache
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\refint\Repertory.dll
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.pdb
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\Repertory.genruntimeconfig.cache
+C:\Users\bogda\CSharpWorkspace\PayPalRepertory\Repertory\Windows\obj\Debug\net6.0-windows\ref\Repertory.dll
