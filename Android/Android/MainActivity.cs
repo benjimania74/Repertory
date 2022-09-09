@@ -6,6 +6,7 @@ using Android.Widget;
 using Android.Resources;
 using System.Collections.Generic;
 using System.IO;
+using static Android.Renderscripts.Sampler;
 
 namespace Android
 {
@@ -115,15 +116,30 @@ namespace Android
 
         public void ModifElement(string oldKey, string oldValue, string newKey, string newValue)
         {
-            items.ForEach(it =>
+            using (StreamReader reader = File.OpenText(f))
             {
-                if (it.key == oldKey && it.value == oldValue)
+                List<string> Lines = new List<string>();
+                string content = "";
+                while ((content = reader.ReadLine()) != null)
                 {
-                    it.key = newKey;
-                    it.value = newValue;
+                    if(content.Equals(oldKey + ":" + oldValue))
+                    {
+                        content = content.Replace(oldKey, newKey).Replace(oldValue, newValue);
+                    }
+                    Lines.Add(content);
                 }
-            });
+
+                items = new List<TableItem>();
+
+                Lines.ForEach(s =>
+                {
+                    items.Add(new TableItem(s.Split(":")[0], s.Split(":")[1]));
+                });
+                reader.Close();
+            }
+
             Save();
+            ActualiseList(FindViewById<EditText>(Resource.Id.search_bar).Text);
         }
 
         private void Save()
